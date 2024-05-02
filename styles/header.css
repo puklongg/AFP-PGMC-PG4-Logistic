@@ -1,0 +1,69 @@
+.header{
+  z-index: 100;
+  height: 110px;
+  display: flex;
+  flex-direction: row ;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: rgb(174, 173, 177);
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(230, 228, 228);
+}
+
+.left-section{
+  display: flex;
+  align-items: center;
+}
+
+
+.logo-logo{
+  height: 85px;
+  margin-left: 15px;
+}
+
+
+
+.user-icon-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative; 
+ 
+}
+
+.right-section{
+  width: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 20px;
+  flex-shrink: 0;
+}
+
+.right-section p{
+  margin-left: 10px;
+  font-size: larger;
+  
+}
+
+.right-section p:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.youtube-icon{
+  height: 24px;
+}
+
+
+.user-icon{
+  height: auto;
+  width: 74px;
+  border-radius: 16px;
+}
+
+
